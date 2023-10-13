@@ -24,7 +24,7 @@ def generate_postman_request(method, host, endpoint):
 
     return request
 
-host = input("Enter the Host: ")
+host = input("Enter the Host (eg. example.com): ")
 
 collection_name = input("Enter the collection's name: ")
 
