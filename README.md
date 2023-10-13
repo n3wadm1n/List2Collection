@@ -1,5 +1,17 @@
 # List2Collection
-The List2Collection automates the creation of a Postman collection based on user inputs for host, collection name, method, and path(route+endpoint) or endpoint.
+The List2Collection automates the creation of a Postman collection based on user inputs for host, collection name, method, and path(route+endpoint).
+
+##
+The file with: method, and path(route+endpoint), should contain something like this example:
+- POST /api/v1/something
+- DELETE /something
+- PUT /api/v2/something
+- GET /api/something
+
+##
+Dont worry it's works w/ unlimited lines.
+
+#
 
 ### User Input
 The script prompts the user to enter the host, collection name, and the filename of the method_and_path file.
